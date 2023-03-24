@@ -1,0 +1,474 @@
+
+header{
+    margin-bottom: 100px !important;
+    background-image: url("../img/baner-dec-left.png");
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+.Contactbtn{
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    width: 100px;
+    transition: background-color,1s;
+}
+.Contactbtn:hover{
+background-color: aqua;
+}
+
+nav{
+    background-color: white;
+    height: 100px;
+    z-index: 1000000000000000000000000000000000000000000000000000;
+}
+
+.logo {
+margin-left: 50px;
+margin-right: 40px;
+
+}
+
+.collapse{
+    margin-left: 90px;
+    margin-right: 80px;
+}
+
+.navul .nav-item{
+margin-left:20px ;
+
+
+
+}
+
+.navul{
+    background-color: white;
+}
+.navul .nav-link:hover{
+    color: orangered !important;
+
+    
+}
+
+.home{
+    color: orangered !important;
+}
+
+.navul .nav-item .nav-link{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 15px;
+}
+
+
+/* roundedendimg */
+
+@media   (max-width:991px) {
+    .roundedendimg{
+        width: 90%;
+        display: block;
+    }
+
+    .continhead{
+        width: 90%;
+        
+    }
+
+ 
+
+    
+}
+
+
+
+/* --------------- */
+
+.continhead{
+ 
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.Welcome{
+    color: orangered;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    
+    
+}
+
+
+
+.Build{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    opacity: 0.9;
+    
+}
+
+.yourwebsite{
+    color: rgb(20, 173, 173);
+    font-size: 54px;
+}
+
+.SEO{
+    color: orangered;
+    font-size: 54px;
+    
+}
+
+.OurServices{
+    background-color: rgb(41, 124, 231);
+    color: white;
+    width: 170px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+}
+
+.OurServices:hover{
+    opacity: 0.9;
+}
+
+.lorem{
+    width: 400px;
+}
+
+
+
+/* -------------------------------------------------------------------------------------------------- */
+/* sections */
+
+.headsec{
+    background-image: url("../img/services-left-dec.png");
+    background-repeat: no-repeat;
+    padding-top: 380px;
+}
+
+
+.headofsec{
+text-align: center;
+width: 100%;
+
+
+}
+.Provide{
+    color: rgba(34, 136, 196, 0.932);
+    font-weight: bold;
+}
+
+.Tools{
+    color: rgba(224, 121, 37, 0.911);
+    font-weight: bold;
+}
+
+.OURSERVICES{
+    color: rgba(224, 121, 37, 0.911);
+    font-weight: bold;
+    opacity: 0.3;
+    font-size: xx-large;
+}
+
+@media (max-width:990px) and (min-width:500px) {
+    .headofsec{
+        margin-top: 250px;
+    }
+    
+}
+
+
+
+.grid{
+    text-align: center;
+}
+
+.upgrid{
+    margin-top: 150px;
+}
+
+
+.roundedendimginsec{
+    width: 40%;
+}
+
+.Aboutsec{
+    margin-top: 200px;
+}
+
+.grid2{
+    text-align: center;
+    
+}
+
+.textonhead2{
+    text-align: center;
+}
+.continhead2{
+    display: inline-block;
+    width: 50%;
+    margin-top: 100px;
+}
+
+
+@media (max-width:990px) {
+    .continhead2{
+        width: 90%;
+        margin-left: 3%;
+    }
+
+    .roundedendimginsec{
+        width: 60%;
+        text-align: center;
+        margin-left: 10%;
+    }
+}
+
+.imgsec{
+    margin-top: 200px;
+    text-align: center;
+    background-image: url("../img/tables-left-dec.png");
+    background-repeat: no-repeat;
+
+    
+}
+
+
+.thirdgrid{
+    margin-top: 100px;
+}
+
+.btnbuy{
+    border: none;
+    border-radius: 50px;
+    height: 50px;
+    opacity: 0.9;
+    font-family: Arial, Helvetica, sans-serif;
+    transition:background-color,1s ;
+   margin-bottom: 50px;
+   opacity: 0.8;
+
+   
+}
+
+.btnbuy:hover{
+    background-color: rgb(223, 113, 11);
+}
+
+
+.grid3{
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    column-gap: 30px ;
+}
+.advanced{
+    padding-top: 50px;
+}
+
+.fees{
+    font-weight: bold;
+}
+.deleted,.fees{
+    color:  rgb(223, 96, 11);
+}
+
+@media (max-width:400px) {
+    .grid33{
+        margin-top: 20px;
+    }
+}
+
+
+/* form------------------------------------ */
+
+    h1, h3, input { 
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    color: #666;
+    }
+    h1, h3 {
+    padding: 12px 0;
+    font-weight: 400;
+    }
+    h1 {
+    font-size: 28px;
+    }
+    .main-block, .info {
+    display: flex;
+    flex-direction: column;
+    }
+    .main-block {
+        margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100%;
+    background: url("/uploads/media/default/0001/01/49bff73f282c2c21f3341f1fe457fe35337b1792.jpeg") no-repeat center;
+    background-size: cover;
+    }
+    .RaitingForm {
+    width: 86%; 
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px; 
+    border: solid 1px #ccc;
+    box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+    background-image: url("../img/portfolio-left-dec.png"); 
+    
+    }
+    .info-item {
+    width: 100%;
+    }
+    input {
+    width: calc(100% - 57px);
+    height: 36px;
+    padding-left: 10px; 
+    margin: 0 0 12px -5px;
+    border-radius: 0 5px 5px 0;
+    border: solid 1px #cbc9c9;
+    box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+    background: #fff; 
+    }
+    .icon {
+    padding: 9px 15px;
+    margin-top: -1px;
+    border-radius: 5px 0 0 5px;
+    border: solid 0px #cbc9c9;
+    background: #666;
+    color: #fff;
+    }
+    input[type=radio] {
+    display: none;
+    }
+    label.radio {
+    position: relative;
+    display: inline-block;
+    text-indent: 32px;
+    cursor: pointer;
+    }
+    label.radio:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 0.5px solid rgb(223, 96, 11);
+    background: #fff;
+    }
+    label.radio:after {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 4px;
+    top: 5px;
+    left: 4px;
+    border-bottom: 3px solid rgb(223, 96, 11);
+    border-left: 3px solid rgb(223, 96, 11);
+    transform: rotate(-45deg);
+    opacity: 0;
+    }
+    input[type=radio]:checked + label:after {
+    opacity: 1;
+    }
+    textarea {
+    width: 99%;
+    margin-bottom: 12px;
+    }
+    .subbutton {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px; 
+    border: none;
+    background: rgb(223, 96, 11); 
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    }
+    button:hover {
+    background: rgb(223, 96, 11);
+    }
+    .grade-type div {
+    display: flex;
+    margin: 6px 0;
+    }
+    @media (min-width: 568px) {
+    .info {
+    flex-flow: row wrap;
+    justify-content: space-between;
+    }
+    .info-item {
+    width: 48%;
+    }
+    }
+
+    /* footer--------------------------------------------------------------- */
+
+    footer{
+        background-image: url("../img/subscribe-bg.png");
+        background-repeat: no-repeat;
+        background-size: 100% 150%;
+        margin-top: 100px;
+        
+        
+    }
+
+    .footer-container{
+        padding-top: 100px;
+        text-align: center;
+       
+    }
+
+    .subbuttonfooter{
+        width: 100px;
+        
+        padding: 8px;
+        border-radius: 5px; 
+        border: none;
+        background: rgb(223, 96, 11); 
+        font-size: 14px;
+        font-weight: 600;
+        color: rgba(104, 54, 34, 0.822);
+    }
+
+    .txtb{
+     background-color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 800;
+     width: 44%;
+     display: block;
+     margin-left: 28%;
+     border-radius: 20px;
+     text-align: center;
+    
+    }
+
+    @media (max-width:900px) {
+        .txtb{
+            width: 70%;
+            margin-left: 14%;
+        }
+    }
+
+    .enter{
+        color:rgb(73, 48, 38) ;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: 800;
+        
+    }
+
+    .logofooter{
+        margin-left: 30px;
+    }
+
+    .ourfoot{
+        font-weight: bold;
+        color:rgb(73, 48, 38);
+    }
